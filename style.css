@@ -1,0 +1,359 @@
+\/*start main rylez*/
+body
+{height: 4000px;}
+/*start header*/
+.container
+{width: 1170px;margin:auto;}
+.clearfix{clear: both;}
+/*start slider*/
+.header .slider 
+{
+    height:500px;
+    background-color: cadetblue;
+    background-image: url('../imges/slider14.jpg');
+
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    }
+.slider .intro
+{
+        height: 600px;
+        text-align: center;
+        color:aliceblue;
+        padding-top: 250px;
+}
+.slider .intro h2
+{
+        color:white; margin: 0px;
+        font-size:50px;
+        width:500px;
+        margin:0 auto;
+        border-bottom: 4px solid white;
+        border-top: 4px solid white;
+    }
+.slider .intro button
+{
+        background:none;
+        color:white;
+        margin-top:30px;
+        padding:10px 25px;
+        font-weight:bold;
+        font-size: 20px;
+        border: 1px solid white;
+}
+/*end slider*/
+/*start navbar*/
+.header .navbar
+{background-color:darkred;overflow: hidden;color:aliceblue;}
+.header .navbar h2 span{color:#32cd6f;}
+.header .navbar ul
+{list-style-type: none; padding-left:0px;float:right;}
+.header .navbar ul li
+{
+    float:left; padding: 10px;
+}
+.header .navbar ul li a
+{color:aliceblue;text-decoration: none;    }
+.header .navbar ul li a:hover
+{ color:#2cca73;font-weight:bold;}
+.header .navbar ul li.active a
+{color:#2cca73;}
+.header .navbar ul li a:active
+{ color:darkturquoise; font-size:20px;}
+/*end header*/
+/*start features*/
+.features
+{
+         overflow: hidden;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color:white;
+}
+.features .feet 
+{
+        width:33.3333%;
+        height:150px;
+        background-color:white;
+    
+}
+.features .feet h2
+{text-transform: capitalize;color:#555;}
+
+/*end features*/
+/* start aout me*/
+.about
+{background-color: #fbf1f1;overflow: hidden;}
+.about .image
+{ width:40%;}
+.about .image img
+{width:100%;}
+.about .info
+{float:left; width:60%; overflow: hidden;}
+.about .info h2 
+{ margin: 20px 0 0 40px;color:#556469;}
+.about .info > p
+{margin: 20px 0 0px 40px;}
+.about .info .hobbies  
+{overflow: hidden; margin:40px 0 0 40px;}
+.about .info .hobbies .content
+{float: left; width:50%; min-height: 100px;   }
+.about .info .hobbies .content .icon
+{margin-right: 5%;  width:13%;}
+ .about .info .hobbies .content .icon i
+    {max-width: 100%;  margin-top: 30px; color:#2dcc70}
+ .about .info .hobbies .content .text
+{float:left;width:78% ;}
+ .about .info .hobbies .content .text h3
+{ color: #556469; margin-bottom: 10px;margin-top: 0px;}
+ .about .info .hobbies .content .text p
+{margin-top: 0px;margin-bottom: 10px;}
+/* end aout me*/
+/*start my skills*/
+.skills
+{overflow: hidden;padding:60px 0 60px 0 ;}
+.skills .skill-p
+{width:50%; }
+.skills .skill-p h2
+{color:#556469;margin-bottom: 20px;}
+.skills .skill-p p:last-of-type
+{margin-top: 30px;}
+.skills .skill-p button
+{padding:10px 40px 10px;}
+
+.skills .exp
+{ width:50%;float:left;}
+.skills .exp .tech
+{ margin-left: 20px;}
+.skills .exp .tech div
+{background-color: #f8e6e6;}
+.skills .exp .tech h3 
+{font-weight: bold;color:#556469 }
+.skills .exp .tech div span 
+{
+        display: block;
+        background-color: #2dcc70;
+        height: 25px;
+        line-height: 25px;
+        text-align: right;
+        color: aliceblue;
+}
+/*end my skills*/
+/*start resume*/
+
+.resume
+{
+        text-align: center;
+        background-color:#fbf1f1;
+        padding-top: 80px;
+        padding-bottom: 80px;
+}
+.resume h2 
+{
+        color:#556366;
+        margin-top: -10px;
+        padding-bottom:10px;
+        text-transform: uppercase;
+    
+}
+.resume button
+{ padding: 10px 15px; }
+/*end resume*/
+/*start my education*/
+.my-education
+{overflow: hidden; padding-top: 50px;padding-bottom: 80px;}
+{overflow: hidden;
+}
+.my-education .education
+{width:50%;}
+.my-education .info
+{width:45%;margin-left:5%;}
+.my-education .education h2
+{color:#556469;padding-bottom: 8px;;}
+.my-education .info h2
+{color:#556469; padding-top: 50px;   }
+.my-education .info span
+{ display:block;color:#666;margin-bottom: 20px}
+.my-education .info span:last-of-type
+{
+        background-color:#2dcc70;
+        display:inline-block;
+        padding:4px 10px;
+        color: aliceblue;
+}
+.my-education .education p:last-of-type
+{margin-top: 30px;}
+.my-education .work
+{width:50%;float:left;}
+.my-education hr {margin:20px;background-color: #999;height:1px; border:1px;}
+.my-education .info1 hr {margin:20px;background-color: #999; border:1px;}
+.my-education .main
+{float:left;width:45%;margin-left: 5%;}
+.my-education .work h2
+{ color:#576568;}
+.my-education .main h2
+{color:#576568; padding-top:50px;}
+.my-education .main span
+{display:block;color:#666;margin-bottom: 20px;}
+.my-education .main span:last-of-type
+{background-color:#2dcc70;display:inline-block;padding:4px 10px;color: aliceblue;}
+/*end my education*/
+/*start testemonials*/
+.testemonials
+{
+        text-align: center;
+        background-color: #fbf1f1;
+        padding-top: 70px;
+        padding-bottom: 50px;
+        overflow: hidden;
+    
+}
+.testemonials q
+{line-height: 1.7; color:#666;font:italic bold 18px/1.8 arial, tahoma;}
+.testemonials h2
+{ color:#576568;}
+.testemonials ul
+{ list-style-type: none; text-align: center; padding-left:0px;}
+.testemonials ul li 
+{
+        display: inline-block;
+        border: 1px solid #2dcc70;
+        width: 10px;
+        height: 10px;
+    }
+.testemonials ul li:hover
+{ background-color: #2dcc70; cursor:pointer;}
+.testemonials ul li.active
+{ background-color:  #2dcc70;}
+/*end testemonials*/
+/*start portfolio*/
+    .portfolio
+{
+        padding-top: 50px;
+        padding-bottom: 70px;
+        text-align: center;
+        overflow: hidden;
+}
+.portfolio h2
+{ padding-bottom: 10px; color:#576568}
+.portfolio p
+{color: #666;padding-bottom: 70px;line-height: 1.7;}
+.portfolio .imges  div
+{ width:33.333333%;float: left;margin-bottom: 20px;}
+.portfolio .imges  div img
+{width:92%;margin-left: 10px; }
+/*end portfolio*/
+
+ 
+/*start contact me*/
+.contact-me{background-color: #252f31;padding-top: 50px; padding-bottom: 70px; overflow: hidden;}
+.contact-me h2{color:aliceblue; margin-left: 40px;}
+.contact-me p{color:#8f9092; margin-left: 40px; line-height: 1.7}
+.contact-me p strong{color: aliceblue}
+.contact-me .contact
+{width:50%; }
+.contact-me .form
+{width:45%; margin-left: 5%;}
+.contact-me .form label
+{display: block; color: aliceblue;}
+.contact-me .form input[type="text"]
+{
+        padding:10px;
+        color: aliceblue;
+        margin: 10px 0 20px 0;
+        width:80%;
+        background-color: #4b5557;
+        border:0;
+
+}
+.contact-me .form textarea
+{
+        background-color:  #4b5557;
+        border: 0;
+        height: 300px;
+        width:83%;
+        margin:10px 0 20px 0;
+        color: aliceblue;
+}
+.contact-me .form input[ type="submit"]
+{
+        display: block;
+        background-color: #191e21;
+        border:0;
+        padding: 10px 30px;
+        color: aliceblue;
+}
+/*e.contact-me .formnd contact me*/
+/*start footer*/
+    .footer
+        {background-color: #191e21; color:#4e5658;text-align: center;padding:70px 0 40px 0; overflow: hidden;}
+.footer ul
+{list-style-type: none;}
+    .footer ul li 
+{display: inline-block; margin:10px;}
+    .footer ul li 
+{
+    font-size: 40px;
+    color: paleturquoise;
+    
+}
+/*end footer*/
+/*start my frame work*/
+.my-button
+{
+         background:none;
+        border:1px solid #2dcc70;
+        border-top:2px solid  #2dcc70;
+        border-bottom:2px solid  #2dcc70;
+        font-weight: bold;
+        color:#2dcc70;
+}
+.float
+{
+    float: left
+}
+p
+{color:#666; line-height: 1.7;}
+
+
+/*end my frame work*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start main rylez*/
